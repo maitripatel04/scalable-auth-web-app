@@ -1,0 +1,37 @@
+frontend-backend-app/
+│
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   └── taskController.js
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   ├── models/
+│   │   ├── Task.js
+│   │   └── User.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   └── taskRoutes.js
+│   ├── .env
+│   ├── package.json
+│   └── server.js
+│
+└── frontend/
+    ├── public/
+    │   └── index.html
+    ├── src/
+    │   ├── components/
+    │   │   └── ProtectedRoute.js
+    │   ├── pages/
+    │   │   ├── Dashboard.js
+    │   │   ├── Login.js
+    │   │   └── Register.js
+    │   ├── services/
+    │   │   └── api.js
+    │   ├── App.js
+    │   ├── index.css
+    │   └── index.js
+    ├── package.json
+    └── tailwind.config.js
